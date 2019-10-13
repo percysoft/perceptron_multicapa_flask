@@ -1,0 +1,8 @@
+version: '3'
+services:
+  flask:
+    image: percytataje10/perceptron_multicapa
+    volumes:
+      - .:/code
+    ports:
+      - "5000:5000"
